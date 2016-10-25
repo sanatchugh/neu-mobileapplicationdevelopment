@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="scraggle_friends_list" type="id">FList</item>
+    <item name="scraggle_login_button" type="id">Login</item>
+    <item name="scraggle_home_button" type="id">Home</item>
+    <item name="scraggle_about_button" type="id">About Scraggle</item>
+    <item name="scraggle_continue_button" type="id">Continue</item>
+    <item name="scraggle_newgame_button" type="id">New Game</item>
+    <item name="scraggle_help_button" type="id">Help</item>
+    <item name="scraggle_sp_button" type="id">single_player</item>
+    <item name="scraggle_mp_button" type="id">multiplayer</item>
+    <item name="speechbutton" type="id">speech recognition</item>
+</resources>

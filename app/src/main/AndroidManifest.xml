@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.sanatchugh">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic2_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TicTacToe"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_tic_tac_toe"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.sanatchugh.MyActivity" />
+        </activity>
+        <activity android:name=".GameActivity" />
+        <activity
+            android:name=".Dictionary2"
+            android:label="@string/title_activity_dictonary"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.sanatchugh.MyActivity" />
+        </activity>
+        <activity
+            android:name=".TheTrickiestPart"
+            android:label="@string/title_thetrickiestpart"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.sanatchugh.MyActivity" />
+        </activity>
+        <activity
+            android:name=".Scraggle"
+            android:label="@string/title_activity_dictonary"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.sanatchugh.MyActivity" />
+        </activity>
+        <activity
+            android:name=".CommunicationMain"
+            android:label="@string/title_communication"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.sanatchugh.MyActivity" />
+        </activity>
+        <activity android:name=".ScraggleGameMenu"/>
+        <activity android:name=".ScraggleLogin"/>
+        <activity android:name=".ScraggleFriendsMenu"/>
+        <activity android:name=".ScraggleMainMenu"/>
+        <activity android:name=".ScraggleSinglePlayer"/>
+        <activity android:name=".ScraggleMultiplayer"/>
+        <activity
+            android:name=".FullScreenSpeech"
+            android:label="@string/title_full_screen_speech"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".TheTrickiestPart"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.sanatchugh.MyActivity" />
+            <intent-filter>
+                <action android:name="edu.neu.madcourse."/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Game"
+            android:label="@string/game_title"/>
+    </application>
+
+
+</manifest>

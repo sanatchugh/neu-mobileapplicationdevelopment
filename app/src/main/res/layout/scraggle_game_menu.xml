@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="Continue"
+        android:id="@id/scraggle_continue_button"
+        android:onClick="ButtonOnClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.34"
+        android:text="NewGame"
+        android:id="@id/scraggle_newgame_button"
+        android:onClick="ButtonOnClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="Help"
+        android:id="@id/scraggle_help_button"
+        android:onClick="ButtonOnClick"/>
+
+</LinearLayout>

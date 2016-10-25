@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_my">
+
+
+    <Button
+        android:id="@+id/aboutbutton"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/button_about"
+        android:onClick="openabout"/>
+
+    <Button
+        android:id="@+id/tictactoebutton"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ttt"
+        android:onClick="opentictactoe"/>
+
+    <Button
+        android:id="@+id/dictonarybutton"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/button_dict"
+        android:onClick="opendictionary"/>
+
+
+    <Button
+        android:id="@+id/scragglebutton"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/button_scrg"
+        android:onClick="openscraggle"/>
+
+
+    <Button
+        android:id="@+id/errorbutton"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/button_error"
+        android:onClick="openerror"/>
+
+    <Button
+        android:id="@+id/commbutton"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/button_comm" />
+    <Button
+        android:id="@+id/thetrickiestpart"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/title_thetrickiestpart"/>
+    <Button
+        android:id="@+id/finalproject"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/title_finalproject"/>
+
+
+    <Button
+        android:id="@+id/quitbutton"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/button_quit" />
+</LinearLayout>

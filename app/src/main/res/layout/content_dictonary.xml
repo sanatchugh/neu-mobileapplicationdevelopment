@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:weightSum="3"
+    tools:showIn="@layout/activity_dictonary">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Word Search"
+        android:inputType="textVisiblePassword"
+        android:id="@+id/word_Search" />
+
+    <Button
+        android:id="@+id/clear_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_me"/>
+    <Button
+        android:id="@+id/acknowledge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acknowledgement"/>
+
+    <Button
+        android:id="@+id/returnback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/returnback"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view"/>
+
+</LinearLayout>
